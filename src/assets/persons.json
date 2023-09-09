@@ -1,0 +1,44 @@
+[
+    {
+        "sno":1,
+        "initial":"Yarramneed",
+        "firstName":"Ravindra",
+        "lastName":"Swamy",
+        "education":"B.tech"
+    },
+    {
+        "sno":2,
+        "initial":"Yarramneed",
+        "firstName":"Ashok Kumar",
+        "lastName":"Swamy",
+        "education":"B.tech"
+    },
+    {
+        "sno":3,
+        "initial":"Yarramneed",
+        "firstName":"Anand",
+        "lastName":"kumar",
+        "education":"B.tech"
+    },
+    {
+        "sno":4,
+        "initial":"Yarramneed",
+        "firstName":"Lovaraju",
+        "lastName":"gorripudi",
+        "education":"Degree"
+    },
+    {
+        "sno":5,
+        "initial":"Yarramneed",
+        "firstName":"Praveen",
+        "lastName":"Kumar",
+        "education":"CCM"
+    },
+    {
+        "sno":6,
+        "initial":"Yarramneed",
+        "firstName":"Shankar",
+        "lastName":"Naga",
+        "education":"B.tech"
+    }
+]

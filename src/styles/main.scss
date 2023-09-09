@@ -1,0 +1,62 @@
+@import "./variables";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.sass-heading-container {
+    #{&}-card {
+        color: red;
+        background-color: $heading-background;
+        font: {
+            size: 24px;
+            family: "Roboto";
+            weight: 700;
+        }
+    }
+}
+.data-table-container {
+    // table {
+    //     width: 100vw;
+    //     thead {
+    //         display: grid;
+    //         grid-auto-columns: 1fr 1fr 1fr 1fr 1fr;
+    //         tr {
+    //             border-bottom: 1px solid black;
+    //             th {
+    //                 border-spacing: 0px;
+    //                 border-collapse: collapse;
+    //             }
+    //         }
+    //         background-color: $heading-background;
+    //     }
+    //     tbody {
+    //         border-bottom: 1px solid #000;
+    //     }
+    // }
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 2fr;
+    align-items: start;
+    gap: 20px;
+    text-align: justify;
+    .first {
+        grid-column: 1 / span 2;
+        background: url("./../assets/logo.png") yellow;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width: 800px) {
+    .data-table-container {
+        background-color: red;
+        display: grid;
+        grid-template-columns: 1fr;
+        .first {
+            grid-column: 1/1;
+        }
+    }
+}
