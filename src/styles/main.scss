@@ -45,6 +45,7 @@ body {
     gap: 20px;
     text-align: justify;
     .first {
+        font-size: 30px;
         grid-column: 1 / span 2;
         background: url("./../assets/logo.png") yellow;
         background-repeat: no-repeat;
